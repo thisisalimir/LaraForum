@@ -1,0 +1,2 @@
+In This part we Create Like Button and also show count of Likes
+Also Avoid Double Like by Add Disable Function to button

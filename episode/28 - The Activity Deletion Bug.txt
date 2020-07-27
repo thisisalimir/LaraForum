@@ -1,0 +1,1 @@
+Connect Delete To Our Activity so when we delete item its delete from activity table too

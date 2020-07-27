@@ -1,0 +1,8 @@
+In this part we want to Record Activity For example when new Thread Create Or new Reply we want to Record
+and show it to User
+
+so First of All We Create new Model & Migration Activity
+Then we create New Trait Called RecordActivity so main job for this trait is listen for event and when its happen Record
+Check that out it has many new things to learn
+
+so now when thread create we create new record that declare user id,thread or reply id, type,...

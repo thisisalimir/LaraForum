@@ -1,0 +1,14 @@
+In This part we check if our app is low and it is
+First install laravel-Debugbar
+https://github.com/barryvdh/laravel-debugbar
+Then in our index we see we have 56 queries so we start to clean it
+Firs thing was in AppServiceProvider:
+  $channels = Cache::rememberForever('channels', function () {//Add Cache For Avoid Duplicate Query
+                return Channel::all();
+            });
+
+we add Cache Add Cache For Avoid Duplicate Query
+
+in 21 we add Global Scope
+
+also we create new trait call favoritable which holds all favorite methods and we use in on Reply Model

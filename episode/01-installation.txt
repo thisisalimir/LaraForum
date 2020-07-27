@@ -1,0 +1,1 @@
+1.Installation: In First we Decide Necessary Model and Migration Also we use Factory for Create Fake Data to test

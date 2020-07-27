@@ -1,0 +1,6 @@
+in this episode we back our AppServiceProvider back:
+\View::composer('*', function ($view) {
+            $view->with('channels', Channel::all());
+        });
+
+also fix show threads by username

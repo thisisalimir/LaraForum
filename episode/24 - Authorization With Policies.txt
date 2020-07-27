@@ -1,0 +1,13 @@
+Continue Our Delete Functionality
+
+First We Create Destroy Method for Delete Thread
+
+Also Create ThreadPolicy For Say only Thread Owner Can Delete and pass this method to both Destroy on Controller And
+
+Also Thread/show blade here we used @can and for first parameter we declare policy we have which is update and second
+parameter is thread object for declare only show button to owner
+
+And also pass to AuthServiceProvider/polices
+
+Also we used Gate with before method which is like Gate for declare that before anything if the case is true then
+he allow so we declare Admin name and now both owner and Admin can remove

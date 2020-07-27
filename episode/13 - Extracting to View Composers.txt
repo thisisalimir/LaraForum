@@ -1,0 +1,4 @@
+this is very Good pass Data From Model to Blade without make Controller Dirty
+so in AppServiceProvider on method boot:
+\View::share('channels', Channel::all());
+we can pass this so everywhere in blade we have access to $channels and we can loop

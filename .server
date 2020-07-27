@@ -1,0 +1,21 @@
+[server]
+# type of web server: nginx or apache
+type = nginx
+
+#root folder. default = .
+root = public
+
+# version of php: 5.6 or 7.2 or 7.3
+php = 7.2
+
+# nginx custom config could be add here.  
+# line counter has no limit
+;nginx.1 = 
+;nginx.2 = 
+;nginx.2 = 
+
+
+# apache config could be add here.  
+# line counter has no limit
+;apache.1 = 
+;apache.2 = 

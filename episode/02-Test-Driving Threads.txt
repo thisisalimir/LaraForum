@@ -1,0 +1,5 @@
+2.Create Test For Threads: create test for both single and all threads view pass data
+setup Database which Laravel Done with Sqlite
+Create Auth Page with laravel ui which is new in 6
+create Test and run by php vendor/phpunit/phpunit/phpunit or "./vendor/bin/phpunit"
+Also Learn to create path() Default URI for show in our Model and we use it every where in blade or other places

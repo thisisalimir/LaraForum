@@ -1,0 +1,8 @@
+show Reply to each threads
+
+create setup method for our ReadThreadsTest so avoid duplicate code
+
+declare Relation methods on Model
+
+create unit test for that
+php artisan make:test ReplyTest --unit

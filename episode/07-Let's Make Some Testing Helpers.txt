@@ -1,0 +1,2 @@
+In This part we create Some Helper Method for Have Better method name and also less typing
+also we create new File Live Template in PHP Storm Call TestClass for have test template
